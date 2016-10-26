@@ -1,0 +1,37 @@
+.container-fluid
+{
+  margin-right: auto;
+  margin-left:auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+#about
+{
+  background-color:$dark-color;
+  padding: 60px 0 ;
+}
+.row
+{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.about
+{
+
+  .profile-item
+  {
+    color:$main-color;
+    font-weight: 500;
+  }
+  .profile-subitem
+  {
+    color:$font-color;
+    font-weight: 500;
+  }
+  .small-line
+  {
+    @include line(30px,$font-color);
+  }
+}

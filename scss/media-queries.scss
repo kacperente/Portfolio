@@ -1,0 +1,82 @@
+@media screen and(max-width: 768px)
+{
+  h1,h2{
+    font-size: $font-m;
+  }
+  #name
+  {
+    font-size: $font-l;
+  }
+  .navbar-inverse
+  {
+    display: none;
+  }
+  .box-about
+  {
+    @include box($main-color,$font-m);
+  }
+  .box-skills
+  {
+    @include box($orange-color,$font-m);
+  }
+  .box
+  {
+   text-align: center;
+  }
+  .about
+  {
+    text-align: center;
+    .small-line
+    {
+      margin: auto;
+    }
+  }
+  .skills
+  {
+    text-align: center;
+    .medium-line
+    {
+      margin: auto;
+    }
+  }
+  .profile-item
+  {
+    font-size:$font-m+-4px;
+  }
+  .profile-subitem
+  {
+    font-size: $font-m;
+  }
+
+}
+@media screen and(min-width: 769px)
+{
+  h1,h2{
+    font-size: $font-l;
+  }
+
+  #name
+  {
+    font-size: $font-xxl;
+  }
+  .burger
+  {
+    display:none;
+  }
+  .box-about
+  {
+    @include box($main-color,$font-l);
+  }
+  .box-skills
+  {
+    @include box($orange-color,$font-l);
+  }
+  .profile-item
+  {
+    font-size:$font-m;
+  }
+  .profile-subitem
+  {
+    font-size: $font-m+4px;
+  }
+}

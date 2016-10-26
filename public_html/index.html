@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width" />
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+
+
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top center">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav ">
+            <li><a class="menu-about" href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="burger">
+    <button id="btn-burger"><i class="fa fa-bars fa-2x burger-icon"></i></button>
+</div>
+<div class="burger-menu">
+    <div class="menu-middle">
+    <ul>
+        <li><a class="menu-about" href="#">About</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Education</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    </div>
+</div>
+<div class="welcome-bg">
+
+</div>
+<div class="cover">
+    <div class="logo-box">
+        <h1 id="title">Frontend developer</h1>
+        <div class="name-box">
+            <h1 id="name">Kacper Gala</h1>
+        </div>
+        <h2 id="subtitle">Portfolio & resume</h2>
+        <div class="icons">
+            <a href="mailto:kacper.gala@wp.pl" target="_top"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
+            <a href="https://github.com/kaperente" target="_blank"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>
+            <i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="box col-md-offset-2 col-md-10">
+                    <h1 class="box-about">About me</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row about">
+            <div class="col-md-offset-2 col-md-5">
+                <dl>
+                    <dt class="profile-item">Student at</dt>
+                    <dd class="profile-subitem">Maritime Univeristy of Szczecin</dd>
+                    <div class="small-line"></div>
+                    <dt class="profile-item">Program</dt>
+                    <dd class="profile-subitem">Computer Engineering</dd>
+                    <div class="small-line"></div>
+                </dl>
+            </div>
+            <div class="col-md-5">
+                <dt>
+                    <dt class="profile-item">Year of study</dt>
+                    <dd class="profile-subitem">4</dd>
+                    <div class="small-line"></div>
+                    <dt class="profile-item">Hobbies</dt>
+                    <dd class="profile-subitem">Skateboarding | Fitness</dd>
+                    <div class="small-line"></div>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="skills">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="box col-md-offset-2 col-md-10">
+                <h1 class="box-skills">Skills</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row skills">
+            <div class="col-md-offset-2 col-md-5">
+                <h2 class="skills-header">Frontend</h2>
+                <div class="medium-line"></div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <ul class="f-skills">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>JQuery</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6">
+                        <ul class="f-skills">
+                            <li>Sass</li>
+                            <li>Bootstrap</li>
+                            <li>Responsive</li>
+                            <li>Smarty</li>
+                            <li>Twig</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="skills-header">Backend</h2>
+                        <div class="medium-line"></div>
+                        <ul class="b-skills">
+                            <li>PHP</li>
+                            <li>MVC Methodology</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h2 class="skills-header">Other</h2>
+                        <div class="medium-line"></div>
+                        <ul class="o-skills">
+                            <li>NPM</li>
+                            <li>Gulp</li>
+                            <li>Git</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--
+<div class="projects">
+        <h1 class="box">Projects</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="project">
+                <img class="scr" src="img/portfolio.JPG">
+                <div class="desc">
+                    <h2>Digital Nomad Blog</h2>
+                    <div class="medium-line"></div>
+                    Final project on web aplications. Powered by own CMS.
+                    <div class="tech">
+                        <h4>HTML5</h4>
+                        <h4>Bootstrap</h4>
+                        <h4>JavaScript</h4>
+                        <h4>Jquery</h4>
+                        <h4>CSS3</h4>
+                        <h4>Responsive</h4>
+                        <h4>PHP</h4>
+                        <h4>Smarty</h4>
+                        <h4>MySQL</h4>
+                        <h4>Users</h4>
+                        <h4>Disquss plugin</h4>
+                    </div>
+                    <p>May 2016</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="project">
+                <img class="scr" src="img/portfolio.JPG">
+                <div class="desc">
+                    <h2>This Website</h2>
+                    <div class="medium-line"></div>
+                    My current website and portfolio.
+                    <div class="tech">
+                        <h4>HTML5</h4>
+                        <h4>JavaScript</h4>
+                        <h4>CSS3</h4>
+                        <h4>Sass</h4>
+                        <h4>Responsive</h4>
+                    </div>
+                    <p>September 2016</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="education">
+    <h1 class="box">Education</h1>
+    <div class="row">
+        <div class="col-md-6 date">
+            <h3>September 2009 - June 2013</h3>
+        </div>
+        <div class="col-md-6 school">
+            <h2>Technical School in Leszno</h2>
+            <p>Electronic profile</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 date">
+            <h3>October 2013 - Present</h3>
+        </div>
+        <div class="col-md-6 school">
+            <h2>Maritime University of Szczecin</h2>
+            <p>Computer Engineering</p>
+        </div>
+    </div>
+</div>
+-->
+</body>
+</html>
