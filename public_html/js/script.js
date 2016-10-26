@@ -14,5 +14,17 @@ $(document).ready(function(){
         }
         $.scrollTo($('#about'),500);
     });
+    $('.menu-skills').click(function(){
+        if($(".burger-menu").is(":visible")){
+            $(".burger-menu").slideUp('fast');
+        }
+        $.scrollTo($('#skills'),500);
+    });
+    $('.menu-projects').click(function(){
+        if($(".burger-menu").is(":visible")){
+            $(".burger-menu").slideUp('fast');
+        }
+        $.scrollTo($('#projects'),500);
+    });
 });
 

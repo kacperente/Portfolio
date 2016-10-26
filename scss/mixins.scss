@@ -4,8 +4,8 @@
   box-sizing: border-box;
   margin-top:5px;
   width: $width;
-  height:35px;
-  border-top: 3px solid $color;
+  height:20px;
+  border-top: 2px solid $color;
 }
 @mixin box($color,$font-size)
 {

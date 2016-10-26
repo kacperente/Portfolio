@@ -56,6 +56,13 @@
     display: inline-block;
     padding: 15px;
     border: 4px solid #E67E22; }
+  .box-projects {
+    color: #7ebc59;
+    font-size: 20px;
+    margin-bottom: 60px;
+    display: inline-block;
+    padding: 15px;
+    border: 4px solid #7ebc59; }
   .box {
     text-align: center; }
   .about {
@@ -69,7 +76,9 @@
   .profile-item {
     font-size: 16px; }
   .profile-subitem {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .desc {
+    margin-bottom: 25px; } }
 
 @media screen and (min-width: 769px) {
   h1, h2 {
@@ -92,6 +101,13 @@
     display: inline-block;
     padding: 15px;
     border: 4px solid #E67E22; }
+  .box-projects {
+    color: #7ebc59;
+    font-size: 32px;
+    margin-bottom: 60px;
+    display: inline-block;
+    padding: 15px;
+    border: 4px solid #7ebc59; }
   .profile-item {
     font-size: 20px; }
   .profile-subitem {
@@ -126,7 +142,7 @@ nav.sticky {
     color: #33363b; }
 
 .burger {
-  position: absolute;
+  position: fixed;
   width: 50px;
   top: 20px;
   right: 10px;
@@ -202,7 +218,7 @@ nav.sticky {
   animation: fadein 3s; }
 
 #name {
-  font-family: 'Poiret One', helvetica;
+  font-family: "Poiret One", helvetica;
   color: #eaeaea;
   -webkit-animation: fadein 3s;
   /* Safari, Chrome and Opera > 12.1 */
@@ -288,8 +304,8 @@ nav.sticky {
   box-sizing: border-box;
   margin-top: 5px;
   width: 30px;
-  height: 35px;
-  border-top: 3px solid #eaeaea; }
+  height: 20px;
+  border-top: 2px solid #eaeaea; }
 
 #skills {
   background-color: #eaeaea;
@@ -305,35 +321,44 @@ nav.sticky {
   box-sizing: border-box;
   margin-top: 5px;
   width: 35px;
-  height: 35px;
-  border-top: 3px solid #E67E22; }
+  height: 20px;
+  border-top: 2px solid #E67E22; }
 
-.projects {
-  background-color: #eaeaea;
-  padding: 60px;
-  margin: auto; }
+#projects {
+  background-color: rgba(51, 54, 59, 0.95);
+  padding: 60px 0; }
 
 .project {
-  background-color: #33363b;
-  color: #eaeaea;
-  padding: 0px;
-  margin: 0px 40px 0px 60px; }
+  background-color: #eaeaea; }
   .project .scr {
     width: 100%; }
 
 .desc {
-  padding: 20px;
-  height: 350px; }
-  .desc .tech h4 {
+  height: 140px;
+  padding: 15px; }
+  .desc .medium-line {
+    box-sizing: border-box;
+    margin-top: 5px;
+    width: 35px;
+    height: 20px;
+    border-top: 2px solid #7ebc59; }
+
+.tech {
+  height: 140px;
+  text-align: center; }
+  .tech h4 {
+    font-size: 12px;
     display: inline-block;
     box-sizing: border-box;
     padding: 3px 5px;
     margin: 10px 5px;
-    border: 2px solid #eaeaea;
+    border: 1px solid #33363b;
     border-radius: 20px; }
-  .desc p {
-    color: #368cbf;
-    font-weight: bold; }
+
+p {
+  padding: 15px;
+  color: #7ebc59;
+  font-weight: 300; }
 
 .education {
   color: #eaeaea;

@@ -19,6 +19,10 @@
   {
     @include box($orange-color,$font-m);
   }
+  .box-projects
+  {
+    @include box($second-color,$font-m);
+  }
   .box
   {
    text-align: center;
@@ -47,6 +51,9 @@
   {
     font-size: $font-m;
   }
+  .desc{
+    margin-bottom: 25px;
+  }
 
 }
 @media screen and(min-width: 769px)
@@ -70,6 +77,10 @@
   .box-skills
   {
     @include box($orange-color,$font-l);
+  }
+  .box-projects
+  {
+    @include box($second-color,$font-l);
   }
   .profile-item
   {
