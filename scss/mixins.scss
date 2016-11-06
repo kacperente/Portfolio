@@ -31,6 +31,17 @@
   -o-animation: fadein $time; /* Opera < 12.1 */
   animation: fadein $time;
 }
+@mixin zoom($scale,$time)
+{
+  -webkit-transition: all $time ease-in;
+  -webkit-transform: scale($scale);
+  -ms-transition: all $time ease-in;
+  -ms-transform: scale($scale);
+  -moz-transition: all $time ease-in;
+  -moz-transform: scale($scale);
+  transition: all $time ease-in;
+  transform: scale($scale);
+}
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }

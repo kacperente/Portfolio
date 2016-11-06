@@ -10,6 +10,10 @@ body
   font-family: $main-font;
   width:100%;
 }
+a
+{
+  outline: 0;
+}
 
 .navbar-inverse
 {
@@ -25,18 +29,30 @@ body
       display: inline-block;
       >a {
         color: $font-color;
+        &:hover {
+          color:$main-color;
+        }
       }
     }
 
   }
 }
-nav.sticky
+.navbar-inverse.scroll
 {
   background-color: $font-color;
-  a{
-    color:$dark-color;
+  transition: background-color 500ms linear;
+  .navbar-nav {
+    >li {
+      >a {
+        color: $dark-color;
+        &:hover{
+          color:$main-color;
+        }
+      }
+    }
   }
 }
+
 
 .burger
 {

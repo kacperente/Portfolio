@@ -15,7 +15,7 @@
   {
     @include box($main-color,$font-m);
   }
-  .box-skills
+  .box-skills,.box-contact
   {
     @include box($orange-color,$font-m);
   }
@@ -51,10 +51,10 @@
   {
     font-size: $font-m;
   }
-  .desc{
-    margin-bottom: 25px;
+  .contact-item
+  {
+    text-align: center;
   }
-
 }
 @media screen and(min-width: 769px)
 {
@@ -74,7 +74,7 @@
   {
     @include box($main-color,$font-l);
   }
-  .box-skills
+  .box-skills,.box-contact
   {
     @include box($orange-color,$font-l);
   }

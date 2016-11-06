@@ -1,0 +1,29 @@
+#contact
+{
+  background-color: $font-color;
+  padding: 60px 0;
+}
+.contact-row
+{
+  .contact-item
+  {
+    a{
+      color:$dark-color;
+      font-size: $font-m+-2;
+      text-decoration: none;
+      &:hover
+      {
+        color:$orange-color;
+
+      }
+    }
+  }
+}
+footer{
+  background-color: $font-color;
+  padding: 15px;
+  .fa-heart
+  {
+    color: darkred;
+  }
+}
